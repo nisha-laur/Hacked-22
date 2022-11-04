@@ -1,0 +1,8 @@
+.images2{
+    position: absolute;
+    /* top: 943px; */
+    bottom: 0px !important;
+    height: 353px;
+    width: 305px;
+    display: inline-block;
+}
