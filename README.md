@@ -30,7 +30,7 @@ o	Once data verified by moderator , volunteers receive discord links for respect
   <li>CSS</li>
   <li>Javascript</li>
   <li>Node.js</li>
-  <li>Wix</li>
+  <li>Ui-Ux</li>
  </ul>
  
 
