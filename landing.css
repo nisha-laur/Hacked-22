@@ -237,11 +237,11 @@ display: inline-block;
 @media only screen and (max-width:425px) {
 
 #big-image{
-    height: 105px;
+    height: 109px;
     bottom:0px;
 }
 #right-image{
-    height: 125px;
+    height: 129px;
 }
 
 .main-heading{
