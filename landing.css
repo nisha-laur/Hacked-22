@@ -237,7 +237,7 @@ display: inline-block;
 @media only screen and (max-width:425px) {
 
 #big-image{
-    height: 109px;
+    height: 130px;
     bottom:0px;
 }
 #right-image{
