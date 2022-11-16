@@ -318,7 +318,7 @@ text-align: center;
 font-family: 'Open Sans', sans-serif;
 font-style: normal;
 font-weight: 600;
-font-size: 37.988px;
+font-size: 41.988px;
 line-height: 233px;
 color: #FFFFFF;
 }
@@ -333,7 +333,7 @@ color: #FFFFFF;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 50 !important;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 79px;
     letter-spacing: 0.25em;
     color: #FFFFFF;
@@ -343,7 +343,7 @@ color: #FFFFFF;
     top: 686px !important;
 }
 .leaves {
-    top: 678px !important;
+    top: 668px !important;
 }
 .nanny {
   
@@ -364,7 +364,7 @@ color: #FFFFFF;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 14px;
     line-height: 40px;
     color: #F6FFFF
 }
@@ -409,7 +409,7 @@ color: #FFFFFF;
     cursor: pointer;
 
     overflow: hidden !important;
-    left: 74px !important;
+    left: 94px !important;
     background: #C9F1F2;
     top: 600px !important;
     width: 193px !important;
