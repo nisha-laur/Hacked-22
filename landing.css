@@ -432,7 +432,7 @@ color: #FFFFFF;
 #para2{
     text-align: left;
     width: 200px !important;
-    top: 688px !important;
+    top: 888px !important;
     left: 25px !important;
     height: 277px;
 }
@@ -441,7 +441,7 @@ color: #FFFFFF;
 .knowme{
     left: 29px !important;
     background: #A7D0FF;
-    top: 980px !important;
+    top: 1080px !important;
     position: absolute;
     width: 130px;
     border: none;
