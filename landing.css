@@ -340,10 +340,10 @@ color: #FFFFFF;
 
 }
 .kiddo {
-    top: 656px !important;
+    top: 696px !important;
 }
 .leaves {
-    top: 633px !important;
+    top: 693px !important;
 }
 .nanny {
   
@@ -390,7 +390,7 @@ color: #FFFFFF;
   }
   #minheading1{
     top: -336px !important;
-    left: -200px;
+    left: -185px;
   }
 
   #btn02 {
@@ -411,14 +411,14 @@ color: #FFFFFF;
     overflow: hidden !important;
     left: 67px !important;
     background: #C9F1F2;
-    top: 102px !important;
+    top: 220px !important;
     width: 193px !important;
     border: none;
     padding-bottom: 30px!important;
 }
 #scroll{
     position: absolute;
-    top: 477px !important;
+    top: 677px !important;
     left: 162PX !important;
     height: 40px !important;
 }
