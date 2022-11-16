@@ -340,10 +340,10 @@ color: #FFFFFF;
 
 }
 .kiddo {
-    top: 456px !important;
+    top: 656px !important;
 }
 .leaves {
-    top: 433px !important;
+    top: 633px !important;
 }
 .nanny {
   
@@ -384,6 +384,10 @@ color: #FFFFFF;
     left: -100px;
 
   }
+  #parag1{
+    left: 60px !important;
+
+  }
   #minheading1{
     top: -336px !important;
     left: -200px;
@@ -407,7 +411,7 @@ color: #FFFFFF;
     overflow: hidden !important;
     left: 67px !important;
     background: #C9F1F2;
-    top: 418px !important;
+    top: 102px !important;
     width: 193px !important;
     border: none;
     padding-bottom: 30px!important;
@@ -415,7 +419,7 @@ color: #FFFFFF;
 #scroll{
     position: absolute;
     top: 477px !important;
-    left: 128PX !important;
+    left: 162PX !important;
     height: 40px !important;
 }
 #heading2{
@@ -432,7 +436,7 @@ color: #FFFFFF;
 #para2{
     text-align: left;
     width: 200px !important;
-    top: 888px !important;
+    top: 988px !important;
     left: 25px !important;
     height: 277px;
 }
@@ -441,7 +445,7 @@ color: #FFFFFF;
 .knowme{
     left: 29px !important;
     background: #A7D0FF;
-    top: 1080px !important;
+    top: 1110px !important;
     position: absolute;
     width: 130px;
     border: none;
@@ -487,7 +491,7 @@ color: #FFFFFF;
     position: absolute;
     width: 126px;
     height: 41px;
-    left: 59px;
+    left: 99px;
     top: 1307px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -508,7 +512,7 @@ color: #FFFFFF;
     position: absolute;
     width: 97px;
     height: 26px;
-    left: 14px;
+    left: 64px;
     top: 1413px;
     border: none;
     background: #8E8CE2;
@@ -579,7 +583,7 @@ color: #FFFFFF;
     position: absolute;
     width: 151px;
     height: 37px;
-    left: 10px;
+    left: 50px;
     border: none;
     top: 1354px;
     background: rgba(141, 139, 209, 0.5);
