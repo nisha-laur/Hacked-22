@@ -340,10 +340,10 @@ color: #FFFFFF;
 
 }
 .kiddo {
-    top:675px !important;
+    top:673px !important;
 }
 .leaves {
-    top: 660px !important;;
+    top: 655px !important;;
 }
 .nanny {
   
@@ -530,7 +530,7 @@ color: #FFFFFF;
     position: absolute;
     width: 362px;
     height: 54px;
-    top: 2175px;
+    top: 2158px;
     text-align: left;
     left: 165px;
     display: inline-block;
@@ -547,7 +547,7 @@ color: #FFFFFF;
     width: 226px;
     height: 48px;
     left: 142px;
-    top: 2155px;
+    top: 2170px;
     overflow-y: hidden;
     background: rgba(141, 139, 209, 0.5);
     border-radius: 30px;
