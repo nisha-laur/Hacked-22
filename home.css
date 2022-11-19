@@ -101,7 +101,7 @@ color: #9C8265;
 }
 
 
-#images2{
+.images2{
     position: absolute;
     top: 943px;
     height: 353px;
@@ -163,4 +163,131 @@ top: 20.2% !important ;
 bottom: 12.5%;
 display: inline-block;
 /* background: #FFFFFF; */
+}
+@media only screen and (max-width:425px) {
+   body {
+    position: absolute;
+    overflow-x: hidden;
+   }
+    #Dev-nav{
+        display: none;
+    }
+
+    #navbar{
+        opacity: 1 !important;
+    }
+
+    .main-heading {
+        position: relative;
+        width: 1131px;
+        height: 275px;
+        left: -373px;
+        top: -237px !important;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20.988px;
+        
+        line-height: 233px;
+        color: #036A72;
+    }
+    .para {
+        position: absolute;
+    width: 261px;
+    height: 227px;
+    left: 62px;
+    top: 223px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #9C8265;
+    }
+
+    #big-image {
+        position: absolute;
+        bottom: 0;
+        left: -26px;
+        top: 316px;
+        z-index: 0;
+        height: 246px;
+    }
+    #Discover{
+        top: 21px !important;
+    font-size: 37px;
+    }
+    #paragrap1{
+        top: -110px !important;
+    font-size: 21px !important;
+    height: 100px;
+    left: 50px;
+    width: 298px;
+    }
+    #image1{
+        top: 788px !important;
+        left: 60px !important;
+    }
+    
+    .images2{
+        width: 263px;
+    }
+
+    #image2{
+        left: 60px !important;
+        top: 1123px !important;
+    }
+    #image3{
+        left: 49px !important;
+    top: 1463px;
+    width: 280px;
+    }
+    .lastpage{
+        height: 253vh !important;
+    }
+    #contact{
+        left: 60px;
+        top: 621px !important;
+        font-size: 29.988px;
+    }
+
+
+    #info1{
+        top: 498px !important;
+        font-size: 18px !important;
+            left: 63px !important;
+
+
+    }
+    #info2{
+        top: 347px !important;
+        font-size: 18px !important;
+            left: 63px !important;
+
+    }
+    #info3{
+        top: 203px!important;
+        font-size: 18px!important;
+            left: 63px !important;
+
+    }
+    .socialtext {
+        top: 2419px;
+    font-size: 26px !important;
+    left: 95px;
+
+    }
+
+    .icons {
+        top: 2466px;
+        left: 51px;
+    }
+    .prior{
+        top: 2131px !important;
+        left: 53px !important;
+        height: 296px !important;
+        left: 46px!important;
+    }
 }

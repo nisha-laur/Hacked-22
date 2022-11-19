@@ -1,77 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <title>Home</title>
+
+  <style>
+    #navbar {
+      height: 30px;
+      width: 30px;
+      background-color: rgb(58, 109, 109);
+      border-radius: 7px;
+      position: absolute;
+      z-index: 100;
+      top: 29px;
+      left: 32px;
+      opacity: 0;
+    }
+
+    #hamburger {
+      position: relative;
+      z-index: 200;
+      height: 10px;
+      top: 7px;
+      left: 9px;
+    }
+
+    #exit {
+      position: relative;
+      z-index: 300;
+      height: 10px;
+      top: 7px;
+      left: -5px;
+      visibility: hidden;
+    }
+
+    #menu {
+      height: 199px;
+    width: 229px;
+    background-color: rgb(58, 109, 109);
+    position: relative;
+    top: 80px;
+    left: 52px;
+    /* padding: 5px; */
+    border-radius: 32px;
+    opacity: 0;
+    padding-top: 33px;
+    margin-bottom: 84px;
+    z-index: 1000;
+    }
+
+    .menubar {
+      font-family: Outfit;
+      font-weight: 500;
+      font-size: 16px;
+      text-align: center;
+      color: white;
+      padding: 10px;
+    }
+
+    .menubar:hover {
+      color: rgb(117, 187, 188);
+    }
+  </style>
 </head>
+
 <body>
-    <div id="page1">
-      <div id="Dev-nav">
-        <button type="button" class="btn1"   style="left:282px;"  onclick="location.href = 'home.html';">HOME</button>
-        <button type="button" class="btn1" style="left: 483px;" onclick="location.href = 'Blogs.html';">BLOGS</button>
-        <button type="button" class="btn1" style="left: 683px; padding-left: 8px;
+  <div id="page1">
+
+
+    <nav id="phone-nav">
+      <div id="navbar">
+        <img id="hamburger" src="Images/hamburger.png">
+        <img id="exit" src="Images/exit.png">
+      </div>
+
+      <div id="menu">
+        <h3 class="menubar" onclick="location.href = 'home.html';">HOME</h3>
+        <hr>
+        <h3 class="menubar" onclick="location.href = 'Blogs.html';">BLOGS</h3>
+        <hr>
+        <h3 class="menubar" onclick="location.href = 'Consultant.html';">CONSULTANT</h3>
+        <hr>
+        <h3 class="menubar" onclick="location.href = 'resources.html';">RESOURCES</h3>
+
+      </div>
+    </nav>
+
+    <div id="Dev-nav">
+      <button type="button" class="btn1" style="left:282px;" onclick="location.href = 'home.html';">HOME</button>
+      <button type="button" class="btn1" style="left: 483px;" onclick="location.href = 'Blogs.html';">BLOGS</button>
+      <button type="button" class="btn1" style="left: 683px; padding-left: 8px;
         padding-right: 9px;" onclick="location.href = 'Consultant.html';">CONSULTANT</button>
-        <button type="button" class="btn1" style="left: 879px;" onclick="location.href = 'resources.html';">RESOURCES</button>
-        <img  id="icon-image" src="Images/lp account.png">
-      </div>
-        <div class="main-heading" style="top: 87px; ">Find Your Calm Practise at Home</div>
-         <!-- <div class="min-heading" style="top: -35px;">TOGETHER WE CURE</div> -->
-         <div class="para">Practice meditation at home with our online classes
-        </div>
-         
-      <img  id="big-image" src="Images/home page art.png">
-     
+      <button type="button" class="btn1" style="left: 879px;"
+        onclick="location.href = 'resources.html';">RESOURCES</button>
+      <img id="icon-image" src="Images/lp account.png">
+    </div>
+    <div class="main-heading" style="top: -219px; ">Find Your Calm Practise at Home</div>
+    <!-- <div class="min-heading" style="top: -35px;">TOGETHER WE CURE</div> -->
+    <div class="para">Practice meditation at home with our online classes
     </div>
 
-    <div id="page1">
-       
-        <div class="main-heading" style="top: 11px;">DISCOVER </div>
-         <!-- <div class="min-heading" style="top: -35px;">TOGETHER WE CURE</div> -->
-         <div class="para" style="position: relative;
-         top: -102px; color:#572F1D; font-size: 42px; font-family: 'Open Sans', sans-serif;">Our Online Free Sessions
-        </div>
-         
-      <img  id="images2"  style="left: 146px;"src="Images/bodyscan tag.png">
-      <img  id="images2" style="left:524px;" src="Images/deepsleep.png">
-      <img  id="images2"  style="    left: 894px;"src="Images/loving kindness.png">
+    <img id="big-image" src="Images/home page art.png">
+
+  </div>
+
+  <div id="page1">
+
+    <div class="main-heading" id="Discover" style="top: 11px;">DISCOVER </div>
+    <!-- <div class="min-heading" style="top: -35px;">TOGETHER WE CURE</div> -->
+    <div class="para" style="position: relative;
+         top: -102px; color:#572F1D; font-size: 42px; font-family: 'Open Sans', sans-serif;" id="paragrap1">Our Online Free Sessions
     </div>
 
-     <div id="page1">
-       
-        <div class="main-heading" style="top: 11px; text-align: left; display: inline-block;">CONTACT US </div><div><img style="height: 70px;  display: inline-block; position: absolute; top: 1400px; left: 430px;"  src="Images/call.png"></div>
-         <!-- <div class="min-heading" style="top: -35px;">TOGETHER WE CURE</div> -->
-         <div class="para" style="position: relative;
-         top: -88px; color:#572F1D; font-size: 30px; font-family: 'Open Sans', sans-serif; text-align: left ; left: 100px;"><strong>Tel:</strong><br>
-         123-456-789
-        </div>
+    <img class="images2" id="image1"  style="left: 146px;" src="Images/bodyscan tag.png">
+    <img class="images2" id="image2"  style="left:524px;" src="Images/deepsleep.png">
+    <img class="images2" id="image3"  style="    left: 894px;" src="Images/loving kindness.png">
+  </div>
 
-        <div class="para" style="position: relative;
-        top: -151px; color:#572F1D; font-size: 30px; font-family: 'Open Sans', sans-serif; text-align: left ; left: 100px;"><strong>Email: </strong><br>
-        chittiksha.support@gmail.com
-       </div>
+  <div id="page1" class="lastpage">
 
-       <div class="para" style="position: relative;
-       top: -210px; color:#572F1D; overflow: hidden; font-size: 30px; font-family: 'Open Sans', sans-serif; text-align: left ; left: 100px;"><strong>Address:</strong><br>
-       ABC Office, Delhi-110006
-       
-       
-      
-      </div>
-      <div class="socialtext">OUR SOCIALS</div>
-      <div class="icons">
-        <img class="icons-img" src="Images/facebook.png">
-        <img class="icons-img" style="left: 26%; width: 45.9px;" src="Images/instagram.png">
-        <img class="icons-img" style="left:50%; width: 45.9px;" src="Images/discord.png">
-        <img class="icons-img" style="left: 75%; top: 16.2%;" src="Images/linkedin.png">
-       
+    <div class="main-heading"  id="contact" style="top: 11px; text-align: left; display: inline-block;">CONTACT US </div>
+    <div><img style="height: 70px;  display: inline-block; position: absolute; top: 1400px; left: 430px;"
+        src="Images/call.png"></div>
+    <!-- <div class="min-heading" style="top: -35px;">TOGETHER WE CURE</div> -->
+    <div class="para"  id="info1"
+      style="position: relative;
+         top: -88px; color:#572F1D; font-size: 30px; font-family: 'Open Sans', sans-serif; text-align: left ; left: 100px;">
+      <strong>Tel:</strong><br>
+      123-456-789
     </div>
-    <img id="big-image"  style="top: 1409px; left:  800px; height: 470px;" src="Images/your priority.png">
+
+    <div class="para"  id="info2"
+      style="position: relative;
+        top: -151px; color:#572F1D; font-size: 30px; font-family: 'Open Sans', sans-serif; text-align: left ; left: 100px;">
+      <strong>Email: </strong><br>
+      chittiksha.support@gmail.com
+    </div>
+
+    <div class="para"  id="info3"
+      style="position: relative;
+       top: -210px; color:#572F1D; overflow: hidden; font-size: 30px; font-family: 'Open Sans', sans-serif; text-align: left ; left: 100px;">
+      <strong>Address:</strong><br>
+      ABC Office, Delhi-110006
+
+
+
+    </div>
+    <div class="socialtext" >OUR SOCIALS</div>
+    <div class="icons">
+      <img class="icons-img" src="Images/facebook.png">
+      <img class="icons-img" style="left: 26%; width: 45.9px;" src="Images/instagram.png">
+      <img class="icons-img" style="left:50%; width: 45.9px;" src="Images/discord.png">
+      <img class="icons-img" style="left: 75%; top: 16.2%;" src="Images/linkedin.png">
+
+    </div>
+    <img id="big-image" class="prior" style="top: 1409px; left:  800px; height: 470px;" src="Images/your priority.png">
+
+    <script src="navbar.js"></script>
 </body>
+
 </html>
