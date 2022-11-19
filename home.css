@@ -227,7 +227,7 @@ display: inline-block;
     width: 298px;
     }
     #image1{
-        top: 982px!important;
+        top: 1000px!important;
         left: 60px !important;
     }
     
@@ -237,11 +237,11 @@ display: inline-block;
 
     #image2{
         left: 60px !important;
-        top: 1223px !important;
+        top: 1493px !important;
     }
     #image3{
         left: 49px !important;
-    top: 1563px;
+    top: 1793px;
     width: 280px;
     }
     .lastpage{
@@ -274,18 +274,18 @@ display: inline-block;
 
     }
     .socialtext {
-        top: 2619px;
+        top: 2919px;
     font-size: 26px !important;
     left: 95px;
 
     }
 
     .icons {
-        top: 2666px;
+        top: 2966px;
         left: 51px;
     }
     .prior{
-        top: 2331px !important;
+        top: 2631px !important;
         left: 53px !important;
         height: 296px !important;
         left: 46px!important;
