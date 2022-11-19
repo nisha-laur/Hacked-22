@@ -211,7 +211,7 @@ display: inline-block;
         position: absolute;
         bottom: 0;
         left: -26px;
-        top: 465px;
+        top: 472px;
         z-index: 0;
         height: 246px;
     }
@@ -227,7 +227,7 @@ display: inline-block;
     width: 298px;
     }
     #image1{
-        top: 788px !important;
+        top: 888px !important;
         left: 60px !important;
     }
     
@@ -237,11 +237,11 @@ display: inline-block;
 
     #image2{
         left: 60px !important;
-        top: 1123px !important;
+        top: 1223px !important;
     }
     #image3{
         left: 49px !important;
-    top: 1463px;
+    top: 1563px;
     width: 280px;
     }
     .lastpage{
@@ -274,18 +274,18 @@ display: inline-block;
 
     }
     .socialtext {
-        top: 2419px;
+        top: 2619px;
     font-size: 26px !important;
     left: 95px;
 
     }
 
     .icons {
-        top: 2466px;
+        top: 2666px;
         left: 51px;
     }
     .prior{
-        top: 2131px !important;
+        top: 2331px !important;
         left: 53px !important;
         height: 296px !important;
         left: 46px!important;
