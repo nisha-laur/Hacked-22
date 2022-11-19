@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #page1{
@@ -58,4 +59,66 @@ cursor: pointer;
   height: 315px;
   width: 280px;
   display: inline-block;
+}
+
+#mind-style{
+  overflow: hidden;
+  position: fixed;
+    top:72px; 
+     font-size: 56.988px;
+      letter-spacing: 15px;
+       color:  #FFFFFF; 
+          height: 140px;
+}
+
+@media only screen and (max-width:425px){
+  body{
+    overflow-y: auto !important;
+  }
+  #dev-navbar{
+    display: none;
+  }
+
+  #mind-style {
+    overflow: hidden;
+    position: fixed;
+    top: 73px !important;
+    font-size: 31.988px;
+    letter-spacing: 2px;
+    left: -359px !important;
+    color: #FFFFFF;
+    height: 140px;
+    line-height: 61px !important;
+}
+#Image1{
+  left: 56px !important;
+  border: 52px solid #B1AFFF;
+  margin-left: -56px;
+}
+#Image2{
+  top: 599px;
+  margin-left: -56px;
+  left: 56px !important;
+  border: 52px solid #B1AFFF;
+}
+#Image3 {
+  top: 1006px;
+  border: 52px solid #B1AFFF;
+  margin-left: -56px;
+  left: 56px !important;
+}
+
+.btn2 {
+  left: 116px !important;
+  width: 117PX !important;
+  top: 1384px !important;
+  overflow: hidden !important;
+  z-index: 100000;
+  position: absolute;
+  height: 34px;
+  font-size: 10px;
+  padding: 0px 28px;
+}
+
+
 }
