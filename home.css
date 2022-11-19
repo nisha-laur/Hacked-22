@@ -211,7 +211,7 @@ display: inline-block;
         position: absolute;
         bottom: 0;
         left: -26px;
-        top: 472px;
+        top: 492px;
         z-index: 0;
         height: 246px;
     }
@@ -227,7 +227,7 @@ display: inline-block;
     width: 298px;
     }
     #image1{
-        top: 888px !important;
+        top: 982px!important;
         left: 60px !important;
     }
     
