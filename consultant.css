@@ -38,10 +38,10 @@
         left: 0px;
         height: 110px !important;
         width: 100vw !important;
-        top: 578px !important;
+        top: 599px !important;
     }
     #main1{
-        top: 611px !important;
+        top: 641px !important;
         z-index: 10000;
         position: absolute;
     }
@@ -51,7 +51,7 @@
     left: 23px;
     font-size: 19px!important;
     position: absolute !important;
-    top: 747px !important;
+    top: 777px !important;
     z-index: 1000000;
     }
     #img1{
