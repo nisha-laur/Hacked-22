@@ -19,7 +19,7 @@
         display: none;
     }
     #page1{
-        height: 177vh;
+        height: 157vh;
     }
     #main {
 
@@ -38,10 +38,10 @@
         left: 0px;
         height: 110px !important;
         width: 100vw !important;
-        top: 599px !important;
+        top: 610px !important;
     }
     #main1{
-        top: 641px !important;
+        top: 647px !important;
         z-index: 10000;
         position: absolute;
     }
@@ -51,7 +51,7 @@
     left: 23px;
     font-size: 19px!important;
     position: absolute !important;
-    top: 777px !important;
+    top: 787px !important;
     z-index: 1000000;
     }
     #img1{
