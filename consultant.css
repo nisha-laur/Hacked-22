@@ -19,7 +19,7 @@
         display: none;
     }
     #page1{
-        height: 187vh;
+        height: 177vh;
     }
     #main {
 
@@ -38,6 +38,7 @@
         left: 0px;
         height: 110px !important;
         width: 100vw !important;
+        top: 578px !important;
     }
     #main1{
         top: 611px !important;
