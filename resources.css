@@ -72,3 +72,54 @@ border-radius: 50px;
     height: 380px;
     width: 350px;
 }
+@media only screen and (max-width:425px){
+    #page1 {
+        height: 262vh;
+    }
+
+    #Dev-nav{
+        display: none;
+    }
+
+    #mainheading{
+        font-size: 39.988px !important;
+        top: 8px !important;
+        position: absolute !important;
+        height: 154px !important;
+    }
+    #parag2{
+        top: 165px !important;
+    left: 43px !important;
+    color: #FF5468 !important;
+    font-size: 19px !important;
+    width: 294px;
+    overflow: hidden;
+    position: absolute !important;
+    line-height: 15px !important;
+    }
+
+    #img01{
+        left: 41px !important;
+    }
+    #button01{
+        left:116px !important;
+    }
+    #img02{
+        left: 41px !important;
+        top:668px !important;
+    }
+
+    #button02{
+        left: 124px !important;
+    top: 966px !important;
+    }
+    #img03{
+        left: 44px !important;
+        top: 1102px !important;
+    }
+
+    #button03{
+        left: 124px !important;
+        top: 1395px !important; 
+    }
+}

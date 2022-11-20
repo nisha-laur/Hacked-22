@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,34 +12,125 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <style>
+        #navbar {
+          height: 30px;
+          width: 30px;
+          background-color: #FF5468;
+          border-radius: 7px;
+          position: absolute;
+          z-index: 100;
+          top: 29px;
+          left: 32px;
+          opacity: 0;
+        }
+    
+        #hamburger {
+          position: relative;
+          z-index: 200;
+          height: 10px;
+          top: 7px;
+          left: 9px;
+        }
+    
+        #exit {
+          position: relative;
+          z-index: 300;
+          height: 10px;
+          top: 7px;
+          left: -5px;
+          visibility: hidden;
+        }
+    
+        #menu {
+          height: 199px;
+        width: 229px;
+        background-color: #FF5468;
+        position: relative;
+        top: 80px;
+        left: 85px;
+        /* padding: 5px; */
+        border-radius: 32px;
+        opacity: 0;
+        padding-top: 33px;
+        margin-bottom: 84px;
+        z-index: 1000;
+        }
+    
+        .menubar {
+          font-family: Outfit;
+          font-weight: 500;
+          font-size: 16px;
+          text-align: center;
+          color: white;
+          padding: 10px;
+        }
+    
+        .menubar:hover {
+          color: rgb(117, 187, 188);
+        }
+      </style>
+
 </head>
+
 <body>
     <div id="page1">
-        <button type="button" class="btn1"   style="left:282px;"  onclick="location.href = 'file:///C:/Users/Satyug/Desktop/CHITTIKSHA/home.html';">HOME</button>
-        <button type="button" class="btn1" style="left: 483px;" onclick="location.href = 'file:///C:/Users/Satyug/Desktop/CHITTIKSHA/Blogs.html';">BLOGS</button>
-        <button type="button" class="btn1" style="left: 683px; padding-left: 8px;
-        padding-right: 9px;" onclick="location.href = 'file:///C:/Users/Satyug/Desktop/CHITTIKSHA/Consultant.html';">CONSULTANT</button>
-        <button type="button" class="btn1" style="left: 879px; " onclick="location.href = 'file:///C:/Users/Satyug/Desktop/CHITTIKSHA/resources.html';">RESOURCES</button>
-        <img  id="icon-image" src="Images/pink profile.png">
-        <div class="main-heading" style="top: 40px; color: 
+        <nav id="phone-nav">
+            <div id="navbar">
+              <img id="hamburger" src="Images/hamburger.png">
+              <img id="exit" src="Images/exit.png">
+            </div>
+      
+            <div id="menu">
+              <h3 class="menubar" onclick="location.href = 'home.html';">HOME</h3>
+              <hr>
+              <h3 class="menubar" onclick="location.href = 'Blogs.html';">BLOGS</h3>
+              <hr>
+              <h3 class="menubar" onclick="location.href = 'Consultant.html';">CONSULTANT</h3>
+              <hr>
+              <h3 class="menubar" onclick="location.href = 'resources.html';">RESOURCES</h3>
+      
+            </div>
+          </nav>
+
+
+        <div id="Dev-nav">
+            <button type="button" class="btn1" style="left:282px;"
+                onclick="location.href = 'home.html';">HOME</button>
+            <button type="button" class="btn1" style="left: 483px;"
+                onclick="location.href = 'Blogs.html';">BLOGS</button>
+            <button type="button" class="btn1" style="left: 683px; padding-left: 8px;
+        padding-right: 9px;"
+                onclick="location.href = 'Consultant.html';">CONSULTANT</button>
+            <button type="button" class="btn1" style="left: 879px; "
+                onclick="location.href = 'resources.html';">RESOURCES</button>
+            <img id="icon-image" src="Images/pink profile.png">
+
+        </div>
+        <div class="main-heading" id="mainheading" style="position: fixed;
+        top: 35px; color: 
         #FFFFFF;">RESOURCES</div>
         <!-- <div class="min-heading" style="top: -35px;">TOGETHER WE CURE</div> -->
-        <div class="para" style="position: relative;
-        top: -84px; color:#FF5468; font-size: 30px; font-family: 'Open Sans', sans-serif;">EXPLORE OUR FREE RESOURCES
-       </div>
-        
-     <img class="images2"  style="left: 156px; width: 300px;"src="Images/18-39.png">
-     <button type="button" class="btn02" style="left: 220px;" onclick="location.href = 'file:///C:/Users/Satyug/Desktop/CHITTIKSHA/agegroup.html'; ">18-39 YEARS</button>
-     <img  class="images2" style="left:510px; width: 300px ; " src="Images/40-59.png">
-     <button type="button" class="btn02" style="left: 579px; " onclick="location.href = 'file:///C:/Users/Satyug/Desktop/CHITTIKSHA/agegroup.html';">40-59 YEARS</button>
-     <img  class="images2"  style="    left: 850px; width: 300px;"src="Images/59+.png ">
-     <button type="button" class="btn02" style="left: 930px; " onclick="location.href = 'file:///C:/Users/Satyug/Desktop/CHITTIKSHA/agegroup.html';">59+ YEARS</button>
-         
-      
-     
+        <div class="para"  id="parag2"  style="position: fixed;
+        top: 179px;color:#FF5468; font-size: 30px; font-family: 'Open Sans', sans-serif;">EXPLORE OUR FREE RESOURCES
+        </div>
+
+        <img class="images2" id="img01" style="left: 156px; width: 300px;" src="Images/18-39.png">
+        <button type="button" class="btn02" id="button01" style="left: 220px;"
+            onclick="location.href = 'agegroup.html'; ">18-39 YEARS</button>
+        <img class="images2" id="img02" style="left:510px; width: 300px ; " src="Images/40-59.png">
+        <button type="button" class="btn02" id="button02" style="left: 579px; "
+            onclick="location.href = 'agegroup.html';">40-59 YEARS</button>
+        <img class="images2" id="img03" style=" left: 850px; width: 300px;" src="Images/59+.png ">
+        <button type="button" class="btn02" id="button03" style="left: 930px; "
+            onclick="location.href = 'agegroup.html';">59+ YEARS</button>
+
+
+
     </div>
 
-  
-    
+    <script src="navbar.js"></script>
+
 </body>
+
 </html>
