@@ -1,45 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultant</title>
-    <link rel="stylesheet" href="home.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultant</title>
+  <link rel="stylesheet" href="home.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="consultant.css">
+
+  <style>
+    #navbar {
+      height: 30px;
+      width: 30px;
+      background-color: #036A72;
+      border-radius: 7px;
+      position: absolute;
+      z-index: 100;
+      top: 29px;
+      left: 32px;
+      opacity: 0;
+    }
+
+    #hamburger {
+      position: relative;
+      z-index: 200;
+      height: 10px;
+      top: 7px;
+      left: 9px;
+    }
+
+    #exit {
+      position: relative;
+      z-index: 300;
+      height: 10px;
+      top: 7px;
+      left: -5px;
+      visibility: hidden;
+    }
+
+    #menu {
+      height: 199px;
+    width: 229px;
+    background-color: #036A72;
+    position: relative;
+    top: 80px;
+    left: 85px;
+    /* padding: 5px; */
+    border-radius: 32px;
+    opacity: 0;
+    padding-top: 33px;
+    margin-bottom: 84px;
+    z-index: 1000;
+    }
+
+    .menubar {
+      font-family: Outfit;
+      font-weight: 500;
+      font-size: 16px;
+      text-align: center;
+      color: white;
+      padding: 10px;
+    }
+
+    .menubar:hover {
+      color: rgb(117, 187, 188);
+    }
+  </style>
+
 </head>
+
 <body>
-    <div id="page1">
-        <button type="button" class="btn1"   style="left:282px;"  onclick="location.href = 'file:///C:/Users/Satyug/Desktop/CHITTIKSHA/home.html';">HOME</button>
-        <button type="button" class="btn1" style="left: 483px;" onclick="location.href = 'file:///C:/Users/Satyug/Desktop/CHITTIKSHA/Blogs.html';">BLOGS</button>
-        <button type="button" class="btn1" style="left: 683px; padding-left: 8px;
-        padding-right: 9px;" onclick="location.href = 'file:///C:/Users/Satyug/Desktop/CHITTIKSHA/Consultant.html';">CONSULTANT</button>
-        <button type="button" class="btn1" style="left: 879px;" onclick="location.href = 'file:///C:/Users/Satyug/Desktop/CHITTIKSHA/resources.html';">RESOURCES</button>
-        <img  id="icon-image" src="Images/lp account.png">
-        <div class="main-heading" style="top: 70px; font-size: 50.988px; ">Consult with the
-            Best Psychologists</div>
-         <!-- <div class="min-heading" style="top: -35px;">TOGETHER WE CURE</div> -->
-         <div class="para" style="top: 230px; font-size: 24px;">We provide a number of ways to receive the support you are looking for. Each option provides an innovative approach, tailored to meet your unique and individual needs. 
-        </div>
-         
-      <img  id="big-image" style="left: 0px; height: 380px; width: 100vw;" src="Images/consultant vector.png">
-     
+  <div id="page1">
+    <nav id="phone-nav">
+      <div id="navbar">
+        <img id="hamburger" src="Images/hamburger.png">
+        <img id="exit" src="Images/exit.png">
+      </div>
+
+      <div id="menu">
+        <h3 class="menubar" onclick="location.href = 'home.html';">HOME</h3>
+        <hr>
+        <h3 class="menubar" onclick="location.href = 'Blogs.html';">BLOGS</h3>
+        <hr>
+        <h3 class="menubar" onclick="location.href = 'Consultant.html';">CONSULTANT</h3>
+        <hr>
+        <h3 class="menubar" onclick="location.href = 'resources.html';">RESOURCES</h3>
+
+      </div>
+    </nav>
+
+
+
+
+
+    <div id="Dev-menu">
+      <button type="button" class="btn1" style="left:282px;"
+        onclick="location.href = 'home.html';">HOME</button>
+      <button type="button" class="btn1" style="left: 483px;"
+        onclick="location.href = 'Blogs.html';">BLOGS</button>
+      <button type="button" class="btn1" style="left: 683px; padding-left: 8px;
+        padding-right: 9px;"
+        onclick="location.href = 'Consultant.html';">CONSULTANT</button>
+      <button type="button" class="btn1" style="left: 879px;"
+        onclick="location.href = 'resources.html';">RESOURCES</button>
+      <img id="icon-image" src="Images/lp account.png">
+    </div>
+    <div class="main-heading" id="main" >Consult with the
+      Best Psychologists</div>
+    <!-- <div class="min-heading" style="top: -35px;">TOGETHER WE CURE</div> -->
+    <div class="para" id="parag" >We provide a number of ways to receive the support you are
+      looking for. Each option provides an innovative approach, tailored to meet your unique and individual needs.
     </div>
 
-    <div id="page1">
-       
-        <div class="main-heading" style="top: 11px;">MEET OUR TEAM</div>
-         <!-- <div class="min-heading" style="top: -35px;">TOGETHER WE CURE</div> -->
-         <div class="para" style="position: relative;
-         top: -102px; color:#572F1D; font-size: 30px; font-family: 'Open Sans', sans-serif;">Get the best therapy sessions from top notch renowned Psychologists.
-        </div>
-         
-      <img  id="images2"  style="left: 136px; width: 400px;"src="Images/dr nathan.png">
-      <img  id="images2" style="left:370px; width: 500px;" src="Images/ashley.png">
-      <img  id="images2"  style="    left: 700px; width: 500px;"src="Images/alex young.png ">
+    <img id="big-image" style="left: 0px; height: 380px; width: 100vw;" src="Images/consultant vector.png">
+
+  </div>
+
+  <div id="page1">
+
+    <div class="main-heading" id="main1" style="top: 11px;">MEET OUR TEAM</div>
+    <!-- <div class="min-heading" style="top: -35px;">TOGETHER WE CURE</div> -->
+    <div class="para" id="paragraph" style="position: relative;
+         top: -102px; color:#572F1D; font-size: 30px; font-family: 'Open Sans', sans-serif;">Get the best therapy
+      sessions from top notch renowned Psychologists.
     </div>
+
+    <img class="images2" id="img1" style="left: 136px; width: 400px;" src="Images/dr nathan.png">
+    <img class="images2" id="img2" style="left:370px; width: 500px;" src="Images/ashley.png">
+    <img class="images2" id="img3" style="    left: 700px; width: 500px;" src="Images/alex young.png ">
+
+    <script src="navbar.js"></script>
+  </div>
 </body>
+
 </html>
