@@ -219,11 +219,7 @@ color: #FFFFFF;
 }
 
 .btn3{
-    /* position: absolute;
-width: 135px;
-height: 33px;
-left: 286px;
-top: 1860px; */
+    
 
 font-family: 'Outfit';
 font-style: normal;
@@ -239,7 +235,7 @@ position: absolute;
 width: 213px;
 height: 50px;
 left: 190px;
-top: 1715px;
+top: 27rem;
 border: none;
 background: #8E8CE2;
 border-radius: 80px;
@@ -536,11 +532,10 @@ color: #FFFFFF;
 }
 .kind{
     position: absolute;
-    left: 32.64%;
-    right: -0.49%;
+    left: 61.64%;
+    z-index:18;
     height: 218px !important;
-    top: 60.9%;
-    bottom: -0.2%;
+    top: 21.9%;
 }
 .socialtext{
     position: absolute;
