@@ -129,6 +129,8 @@ color: #F6FFFF;
     margin:0px;
     padding:0px;
     background-color: #B1AFFF;
+    position:absolute;
+    z-index:10;
     
 }
 .frmcontrol{
@@ -181,8 +183,8 @@ color: #F6FFFF;
 }
 .nanny{
     position: absolute;
-     left: 74.64%;
-     
+     left: 76.64%;
+     z-index:0;
      height: 467px !important;
      top: 136.90%;
      
