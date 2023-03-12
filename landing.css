@@ -175,11 +175,11 @@ color: #F6FFFF;
 }
 #heart{
     position: absolute;
-        left: 40.64%;
-        right: -0.49%;
+        left: 35rem;
+    z-index: 18;
         height: 67px !important;
-        top: 218.95%;
-        bottom: -0.2%;
+        top: 8rem;
+        
 }
 .nanny{
     position: absolute;
