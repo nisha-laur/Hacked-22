@@ -290,7 +290,20 @@ display: inline-block;
 /* background: #FFFFFF; */
 }
 
-
+.para2{
+    top: 59rem !important;
+    position: absolute;
+    width: 63%;
+    height: 157px;
+    left: 6rem;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 36px;
+    color: #F6FFFF;
+}
 
 
 @media only screen and (max-width:425px) {
