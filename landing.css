@@ -139,7 +139,8 @@ color: #F6FFFF;
     height: 44px;
     left: 52px;
     border: none;
-    top: 1655px;
+    z-index: 18;
+    top: 23rem;
     background: rgba(141, 139, 209, 0.5);
     border-radius: 30px;
 }
@@ -167,10 +168,11 @@ color: #F6FFFF;
 }
 .kind{
     position: absolute;
-     left: 58.64%;
+     left: 51rem;
      right: -0.49%;
      height: 467px !important;
-     top: 220.90%;
+     top: 12rem;
+    z-index: 18;
      bottom: -0.2%;
 }
 #heart{
