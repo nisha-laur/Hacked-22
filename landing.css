@@ -105,12 +105,12 @@ color: #F6FFFF;
 
 #icon-image{
     position: absolute;
-    top: 36px;
-    right: 229px;
+    top: 307% ! important;
+    right: 22rem;
     height: 70px;
 }
 .features{
-    top: 156rem; left: 240px !important;
+    top: 335%; left: 240px !important;
 
 }
 #page2{
